@@ -1,0 +1,17 @@
+@media screen and (max-width: 1023px) {
+	.grid-container {
+    	grid-template-columns: repeat(6, 1fr);
+  		grid-template-rows: auto 1fr 60px;
+    }
+}
+@media screen and (max-width: 767px) {
+	.grid-container {
+    	grid-template-columns: repeat(6, 1fr);
+  		grid-template-rows: auto auto 1fr 60px;
+        grid-template-areas: 
+          'header	header	header	header	header	header'
+          'side	side	side	side	side	side'
+          'main	main	main	main	main	main'
+          'footer	footer	footer	footer	footer	footer';
+    }
+}
