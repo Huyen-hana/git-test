@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto 1fr 60px;
+    background-color: pink;
+    padding: 5px;
+    gap: 5px;
+    grid-template-areas: 
+    'header	header	header	header	header	header'
+    'side	side	main	main	main	main'
+    'side	side	footer	footer	footer	footer';
+  }
+  .grid-content {
+    background-color: #f1f1f1;
+    padding: 5px;
+    font-size: 12px;
+    
+    gap: 5px;
+  }
+  .header {
+      grid-area: header;
+  }
+  .side {
+      grid-area: side;
+  }
+  .main {
+      grid-area: main;
+  }
+  .footer {
+      grid-area: footer;
+  }
+  
