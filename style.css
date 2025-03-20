@@ -3,8 +3,8 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto 1fr 60px;
     background-color: pink;
-    padding: 5px;
-    gap: 5px;
+    padding: 3px;
+    gap: 2px;
     grid-template-areas: 
     'header	header	header	header	header	header'
     'side	side	main	main	main	main'
@@ -12,10 +12,9 @@
   }
   .grid-content {
     background-color: #f1f1f1;
-    padding: 5px;
+    padding: 3px;
     font-size: 12px;
-    
-    gap: 5px;
+    gap: 3px;
   }
   .header {
       grid-area: header;
@@ -39,7 +38,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
     
@@ -65,7 +64,7 @@
   display: none;
   position: absolute;
   right: 0;
-  background-color: pink;
+  background-color: rgb(255, 218, 224);
   border-radius: 4px;
   min-width: 160px;
   box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.2);
