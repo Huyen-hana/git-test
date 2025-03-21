@@ -3,8 +3,8 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto 1fr 60px;
     background-color: pink;
-    padding: 3px;
-    gap: 2px;
+    padding: 2px;
+    gap: 2.5px;
     grid-template-areas: 
     'header	header	header	header	header	header'
     'side	side	main	main	main	main'
@@ -87,4 +87,9 @@
 
 .dropdown:hover .dropbtn {
   background-color: #f1f1f1;
+}
+.footer__coppy-right {
+  display: flex;
+  margin: 0 auto;
+  background-color: transparent;
 }
